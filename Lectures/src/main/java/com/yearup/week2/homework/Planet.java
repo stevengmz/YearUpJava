@@ -1,5 +1,5 @@
 
-package Lectures.src.main.java.com.yearup.week2.homework;
+package com.yearup.week2.homework;
 public abstract class Planet implements Calculator {
     protected String getStar;
 

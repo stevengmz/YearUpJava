@@ -1,4 +1,4 @@
-package Lectures.src.main.java.com.yearup.week2.homework;
+package com.yearup.week2.homework;
 
 
 import java.util.Scanner;
