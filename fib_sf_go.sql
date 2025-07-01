@@ -9,6 +9,9 @@ go fib_sf
 -- Example 1: Add a simple column
 ALTER TABLE t322 ADD COLUMN new_column_name VARCHAR(255);
 
+-- Example: Add m2i column as CHAR(1) NULL
+ALTER TABLE t322 ADD COLUMN m2i CHAR(1) NULL;
+
 -- Example 2: Add a column with constraints
 ALTER TABLE t322 ADD COLUMN fib_value INTEGER NOT NULL DEFAULT 0;
 
