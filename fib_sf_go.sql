@@ -1,3 +1,5 @@
+go fib_sf
+
 -- SQL file: fib_sf_go.sql
 -- Adding a new column to existing table t322
 
@@ -48,4 +50,3 @@ ALTER TABLE t322 ADD COLUMN fibonacci_sequence INTEGER;
 -- 2. NOT NULL constraints (may require default values)
 -- 3. Indexes if the column will be frequently queried
 -- 4. Foreign key constraints if referencing other tables
-
